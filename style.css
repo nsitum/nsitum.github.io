@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #28282B;
+    padding: 30px;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.filmovi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.filmovi .film {
+    width: 270px;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 0.3s;
+    position: relative;
+    text-align: center;
+}
+
+.filmovi .film h2 {
+    color: #fff;
+}
+
+.filmovi .film:hover {
+    transition: 0.3s;
+    transform: scale(1.03);
+}
+
+.filmovi .film img {
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.filmovi .film h3 {
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+    width: 100%;
+    font-size: 24px;
+}
+
+.filmovi .film button {
+    padding: 0.5rem 1rem;
+    outline: 0;
+    border: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 14px;
+    cursor: pointer;
+    background-color: #5783db;
+    color: #fff;
+}
+
+.kosarica {
+    margin: auto;
+    width: 900px;
+    height: 500px;
+    background-color: #48494B;
+    margin-top: 110px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.kosarica .kosarica-title {
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.kosarica hr {
+    width: 70%;
+    margin: auto;
+}
+
+.kosarica .kosarica-elements {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 100px;
+    
+    color: #fff;
+}
+
+.kosarica .kosarica-elements .single-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.kosarica .kosarica-elements .single-element button {
+    padding: 0.5rem 1rem;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: #5783db;
+    color: #fff;
+}
+
+.kosarica .kosarica-total h2{
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    color: #fff;
+    border: 2px solid white;
+    padding: 1rem 2rem;
+}

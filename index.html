@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmovi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Dobrodošli u videoteku</h1>
+
+    <div class="filmovi">
+        <div class="film"> 
+            <img src="img/godfather.jpg">
+            <h3 class="price">Cijena: $40</h3>
+            <button onclick="addToCart(this)">Gledaj</button>
+            <h2>The Godfather</h2>
+        </div>
+        <div class="film">
+            <img src="img/shawshank.jpg">
+            <h3 class="price">Cijena: $50</h3>
+            <button onclick="addToCart(this)">Gledaj</button>
+            <h2>Shawshank</h2>
+        </div>
+        <div class="film">
+            <img src="img/lotr.jpg">
+            <h3 class="price">Cijena: $60</h3>
+            <button onclick="addToCart(this)">Gledaj</button>
+            <h2>The LOTR</h2>
+        </div>
+        <div class="film">
+            <img src="img/avatar.jpg">
+            <h3 class="price">Cijena: $70</h3>
+            <button onclick="addToCart(this)">Gledaj</button>
+            <h2>Avatar</h2>
+        </div>
+    </div>
+
+    <div class="kosarica">
+        <h2 class="kosarica-title">Vaša košarica</h2>
+        <hr>
+        <div class="kosarica-elements">
+            <!-- <div class="single-element">
+                <h2>The Godfather</h2>
+                <p>Cijena: 40$</p>
+                <button>Ukloni</button> -->
+            </div>
+        <div class="kosarica-total">
+                <h2>Ukupno: 0$</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
